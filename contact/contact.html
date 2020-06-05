@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!--                                Branding                                 -->
+    <div class="container-fluid brand">
+        <div class="col ">
+        <a href="../index.html"><img height="60px" src="../images/Tanzeel Garments.png" alt=""></a>
+        </div>
+    </div>
+
+<!--                             Navbar Coding                             -->
+
+<nav class="navigation-menu">
+  <ul>
+    <li><a href="../index.html" ><span><i class="fa fa-home"  aria-hidden="true"></i></span>Home</a></li>
+    <li id="catagories"><a href="#" ><span><i class="fa fa-bars" aria-hidden="true"></i></span>Catagories 
+        <i class="fa fa-caret-down"></i></a>
+        <div class="drop-menu">
+          
+          <a href="../catagories/eidCollection.html">Eid Collections</a>
+          <a href="../catagories/girlsCollection.html">Girls Collection</a>
+          <a href="../catagories/boysCollection.html">Boys Collection</a>
+          <a href="../catagories/fancyDresses.html">Fancy Dresses</a>
+          <a href="../catagories/shirts.html">Shirts</a>
+          <a href="../catagories/pants.html">Pants</a>
+          <a href="../catagories/kurtas.html">Kurta's</a>
+        </div>
+    </li>
+    <li><a href="../about/about.html"><span><i class="fa fa-info-circle" aria-hidden="true"></i></span>About Us </a></li>
+    <li><a href="contact.html" id="active"><span><i class="fa fa-phone-square" aria-hidden="true"></i></span>Contact Us</a></li>
+    <li>
+      <a href="../form/form.html"  target="_blank"><i class="fa fa-user-circle-o account" aria-hidden="true"></i> Sign in</a></li>
+    <li>
+      <a href=""><i class="fa fa-shopping-cart cart" aria-hidden="true"></i>Your Cart</a></li>
+     </ul>
+  </nav>
+
+    
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-6" style="text-align:center">
+        <h2>Visit Our Store</h2>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8933922842525!2d67.11210031486927!3d24.90161778403455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33919bbc4a4bf%3A0x3378f0565c85f372!2sSaima%20Mall%20%26%20Residency!5e0!3m2!1sen!2s!4v1590587309136!5m2!1sen!2s" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p>Check the address in above google map</p>  
+    </div>
+    <div class="col-md-6">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+            <p>leave us a message:</p>
+          </div>
+      <form action="../index.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Pakistan">Pakistan</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer">
+    <div class="container " id="contact">
+      <div class="row">
+         <div class="col-lg-3 mt-5 footer-1">
+           <img src="../images/Tanzeel Garments.png" height="35px" alt="">
+           <p class="h5 visible-xs pt-4">Follow us</p>
+           <p class="social text-white">
+             <a href="#" target="_blank"><span class="fa fa-facebook"> </span></a> 
+             <a href="#" target="_blank"><span class="fa fa-instagram"> </span></a> 
+             <a href="#" target="_blank"><span class="fa fa-twitter"> </span></a> 
+             <a href="#" target="_blank"><span class="fa fa-youtube-play"> </span></a> 
+             <a href="#" target="_blank"><span class="fa fa-google-plus"> </span></a>
+             <a href="#" target="_blank"><span class="fa fa-vimeo"> </span></a></p>
+           
+         </div>
+         <div class="col-lg-3 mt-5">
+           <p class="h5 footer-col">About TanzeelGarments</p>
+                 <ul class="footer-list text-white">
+                 <li><a href="../about/about.html">About Us</a></li>
+                 <li><a href="#" target="_blank">Company</a></li>
+                 <li><a href="#">Careers</a></li>
+                 <li class="last"><a href="#">Store Locator</a></li>
+                 </ul>
+         </div>
+         <div class="col-lg-3 mt-5">
+           <p class="h5 footer-col">My Account</p>
+               <ul class="footer-list">
+               <li><a href="#">Login</a></li>
+               <li><a href="#">Order History</a></li>
+               <li><a href="#">Order Status</a></li>
+               </ul>
+         </div>
+         <div class="col-lg-3 mt-5">
+           <p class="h5 footer-col">Customer Care</p>
+               <ul class="footer-list">
+               <li><a href="contact.html">Contact Us</a></li>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Shipping Policy</a></li>
+               <li class="last"><a href="#">Return &amp; Exchange Policy</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               </ul>
+         </div>
+      </div>
+    </div>
+   </div>
+  
+  
+     
+  <div class="footer">
+   <p class="bg-secondary py-1 my-0">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>  2020 Tanzeel Garments</p>
+  </div>
+  
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+</body>
+  </html>
+
+</body>
+</html>
